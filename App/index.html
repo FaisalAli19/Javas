@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+    <title>Pomodoro Clock</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="styles/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css" crossorigin="anonymous">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="left">
+            <h1>Pomodoro Clock</h1>
+        </div>
+        <div class="left">
+            <p>Build with <i class="fa fa-heart"></i> by <a href="http://faisal-ali.com" target="_blank">Faisal Ali</a></p>
+        </div>
+    </nav>
+    <audio id="buzz" src="./Audio/buzzer.mp3" type="audio/mpeg"></audio>
+    <!-- Main section -->
+    <section class="main">
+        <div class="timer-set">
+            <div class="break">
+                <p>Break Length</p>
+                <h3>5</h3>
+                <div class="add-min">
+                    <a href="#"><i class="fa fa-minus-circle minus"></i></a>
+                    <a href="#"><i class="fa fa-plus-circle plus"></i></a>
+                </div>
+            </div>
+            <div class="session">
+                <p>Session Length</p>
+                <h3>25</h3>
+                <div class="add-min">
+                    <a href="#"><i class="fa fa-minus-circle minus"></i></a>
+                    <a href="#"><i class="fa fa-plus-circle plus"></i></a>
+                </div>
+            </div>
+        </div>
+        <h2 class="title"></h2>
+        <div class="clock">
+            <div class="timer">
+                <h2 class="time">00:00</h2>
+            </div>
+        </div>
+        <div class="controls">
+            <a href="#" class="btn btn-success btn-lg start">Start Timer</a>
+            <a href="#" class="btn btn-danger btn-lg reset hide">Reset</a>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>
