@@ -6,4 +6,4 @@ This a freecodecamp challenge project.
 
 If you want you can view this on Heroku.
 
-Link: 
+Link: https://javascriptpomodoroclock.herokuapp.com/
